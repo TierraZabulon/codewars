@@ -21,3 +21,13 @@ function addFive(num) {
   var total = num + 5;
   return total;
 }
+
+//Complete the solution so that it reverses the string passed into it.
+function solution(str) {
+  let stringSplit = str.split("");
+  let reverseStr = stringSplit.reverse("");
+  let joinStr = reverseStr.join("");
+  return str.split("").reverse("").join("");
+}
+
+solution("world");
