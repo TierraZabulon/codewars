@@ -42,3 +42,20 @@ function greet(name, owner) {
     return "Hello guest";
   }
 }
+
+//create a  function that calculates bmi
+function bmi(weight, height) {
+  let bmiTest = weight / (height * height);
+
+  if (bmiTest <= 18.5) {
+    return "Underweight";
+  } else if (bmiTest <= 25.0) {
+    return "Normal";
+  } else if (bmiTest <= 30.0) {
+    return "Overweight";
+  } else {
+    return "Obese";
+  }
+}
+
+bmi(100, 55);
