@@ -59,3 +59,17 @@ function bmi(weight, height) {
 }
 
 bmi(100, 55);
+
+//create a function that will determine if there is enough fuel to make it to the gas station
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
+  // TODO
+  let makeIt = distanceToPump / mpg;
+  if (makeIt <= fuelLeft) {
+    return true;
+  } else {
+    return false;
+  }
+};
+
+zeroFuel(50, 25, 2);
