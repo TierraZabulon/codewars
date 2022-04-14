@@ -111,3 +111,10 @@ function greet(name) {
   let userName = name;
   return `Hello, ${name} how are you doing today?`;
 }
+
+//Write a function to split a string and convert it into an array of words.
+function stringToArray(string) {
+  // code code code
+  const strings = string.split(" ");
+  return strings;
+}
