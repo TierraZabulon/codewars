@@ -146,3 +146,10 @@ function simpleMultiplication(number) {
     return number * 9;
   }
 }
+
+// create a function that removes the first and last characters of a string.
+
+function removeChar(str) {
+  //You got this!
+  return str.slice(1, -1);
+}
