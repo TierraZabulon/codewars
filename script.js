@@ -130,3 +130,19 @@ function goals(laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 function repeatStr(n, s) {
   return s.repeat(n);
 }
+
+//Write a function which converts the input string to uppercase.
+function makeUpperCase(str) {
+  // Code here
+  return str.toUpperCase();
+}
+
+//This kata is about multiplying a given number by eight if it is an even number and by nine otherwise.
+function simpleMultiplication(number) {
+  // your code........
+  if (number % 2 === 0) {
+    return number * 8;
+  } else {
+    return number * 9;
+  }
+}
