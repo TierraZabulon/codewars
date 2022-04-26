@@ -153,3 +153,16 @@ function removeChar(str) {
   //You got this!
   return str.slice(1, -1);
 }
+//Every day you rent the car costs $40. If you rent the car for 7 or more days, you get $50 off your total. Alternatively, if you rent the car for 3 or more days, you get $20 off your total.
+function rentalCarCost(d) {
+  // Your solution here
+  let rentalCost = 40 * d;
+  if (d >= 7) {
+    return rentalCost - 50;
+    console.log(rentalCost);
+  } else if (d >= 3) {
+    return rentalCost - 20;
+  } else {
+    return rentalCost;
+  }
+}
