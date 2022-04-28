@@ -166,4 +166,4 @@ function rentalCarCost(d) {
     return rentalCost;
   }
 }
-//8kyu continued//
+//8kyu continued//green
