@@ -196,3 +196,10 @@ var findAverage = function (nums) {
   // Code here
   return nums.reduce((acc, cur) => acc + cur) / nums.length;
 };
+
+// I want to get the sum of two arrays...actually the sum of all their elements
+function arrayPlusArray(arr1, arr2) {
+  let arrSum1 = arr1.reduce((acc, cur) => acc + cur, 0);
+  let arrSum2 = arr2.reduce((acc, cur) => acc + cur, 0);
+  return arrSum1 + arrSum2;
+}
