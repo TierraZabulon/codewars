@@ -190,3 +190,9 @@ function digitize(n) {
 
   console.log(n);
 }
+
+//Find the mean (average) of a list of numbers in an array.
+var findAverage = function (nums) {
+  // Code here
+  return nums.reduce((acc, cur) => acc + cur) / nums.length;
+};
