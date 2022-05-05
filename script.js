@@ -203,3 +203,6 @@ function arrayPlusArray(arr1, arr2) {
   let arrSum2 = arr2.reduce((acc, cur) => acc + cur, 0);
   return arrSum1 + arrSum2;
 }
+//Add the value "codewars" to the websites array.
+var websites = [];
+websites.push("codewars");
