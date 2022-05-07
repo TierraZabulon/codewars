@@ -206,3 +206,15 @@ function arrayPlusArray(arr1, arr2) {
 //Add the value "codewars" to the websites array.
 var websites = [];
 websites.push("codewars");
+
+//Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+function sumMix(x) {
+  let stringArray = x;
+  let numberArray = [];
+  let length = stringArray.length;
+  for (let i = 0; i < length; i++) {
+    numberArray.push(parseInt(stringArray[i]));
+  }
+  console.log(numberArray);
+  return numberArray.reduce((a, c) => a + c, 0);
+}
