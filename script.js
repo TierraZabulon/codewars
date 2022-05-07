@@ -223,3 +223,15 @@ function sumMix(x) {
 items = [];
 const obj = { a: "b", c: "d" };
 items.push(obj);
+
+//Complete the function mergeArrays(arr1, arr2), where arr1 and arr2 are the original sorted arrays.
+//arr1 and arr2 may have same integers. Remove duplicated in the returned result.
+function mergeArrays(arr1, arr2) {
+  let merge = arr1.concat(arr2);
+  let sorted = merge.sort((a, b) => a - b);
+  let filtered = sorted.filter((c, index) => {
+    return sorted.indexOf(c) === index;
+  });
+
+  return filtered;
+}
