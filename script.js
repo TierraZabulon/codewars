@@ -235,3 +235,10 @@ function mergeArrays(arr1, arr2) {
 
   return filtered;
 }
+//Write a function that takes an array of strings as an argument and returns a sorted array containing the same strings, ordered from shortest to longest.
+function sortByLength(array) {
+  // Return an array containing the same strings, ordered from shortest to longest
+  let myArray = array;
+  let sort = myArray.sort((a, b) => a.length - b.length);
+  return sort;
+}
