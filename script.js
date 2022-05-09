@@ -260,3 +260,10 @@ function solution(str, ending) {
     return false;
   }
 }
+
+//Make a program that filters a list of strings and returns a list with only your friends name in it.
+function friend(friends) {
+  return friends.filter(
+    (item) => typeof item === "string" && item.length === 4
+  );
+}
