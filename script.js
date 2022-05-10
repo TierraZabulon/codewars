@@ -267,3 +267,9 @@ function friend(friends) {
     (item) => typeof item === "string" && item.length === 4
   );
 }
+
+// Write a function which takes its speed in km per hour and returns it in cm per second, rounded down to the integer (= floored).
+function cockroachSpeed(s) {
+  let seconds = s * 27.777778;
+  return Math.floor(seconds);
+}
