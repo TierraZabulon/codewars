@@ -273,3 +273,13 @@ function cockroachSpeed(s) {
   let seconds = s * 27.777778;
   return Math.floor(seconds);
 }
+//You're writing code to control your town's traffic lights. You need a function to handle each change from green, to yellow, to red, and then to green again.
+function updateLight(current) {
+  if (current === "green") {
+    return "yellow";
+  } else if (current === "yellow") {
+    return "red";
+  } else if (current === "red") {
+    return "green";
+  }
+}
