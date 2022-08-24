@@ -9,3 +9,7 @@
 function stringClean(s) {
   return s.replace(/[0-9]/g, "");
 }
+//arrow function
+const stringClean = (s) => {
+  return s.replace(/[0-9]/g, "");
+};
