@@ -7,3 +7,6 @@
 // returns:
 
 // 'James Stevens'
+const combineNames = (fname, lname) => {
+  return `${fname} ${lname}`;
+};
