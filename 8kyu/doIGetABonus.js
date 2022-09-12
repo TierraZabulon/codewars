@@ -14,3 +14,7 @@ function bonusTime(salary, bonus) {
     return "\u00A3" + n;
   }
 }
+//best practice
+function bonusTime(salary, bonus) {
+  return bonus ? `£${10 * salary}` : `£${salary}`;
+}
