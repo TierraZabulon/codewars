@@ -55,7 +55,10 @@ function exercise1(num1) {
   // ------------------------------------------
   // Write your code for exercise 1 below here:
   // ------------------------------------------
-
+  answer1 = "num1 is small";
+  if (num1 > 10) {
+    answer1 = `The value of num1 is ${num1} and is greater than 10`;
+  }
   // ------------------------------------------
   // And above here
   // ------------------------------------------
